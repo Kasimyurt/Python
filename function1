@@ -1,0 +1,8 @@
+# Basit bir fonksiyon tanımlama
+def greet(name):
+    """Bir kişiyi selamlayan fonksiyon."""
+    return f"Merhaba, {name}!"  # Selam mesajı döndürür
+
+# Fonksiyonu çağırma
+isim = input("Adınızı girin: ")  # Kullanıcıdan adını girmesini ister
+print(greet(isim))  # Fonksiyonu çağırır ve sonucu ekrana yazdırır
