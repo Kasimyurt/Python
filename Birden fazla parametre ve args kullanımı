@@ -1,0 +1,4 @@
+def toplam(*sayilar):
+    return sum(sayilar)
+
+print(toplam(1, 2, 3, 4, 5))  # Toplam: 15
