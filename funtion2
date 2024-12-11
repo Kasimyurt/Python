@@ -1,0 +1,5 @@
+def greet(name="Dünya"):
+    return f"Merhaba, {name}!"
+
+print(greet())  # Varsayılan parametre ile
+print(greet("Ayşe"))  # Özel parametre ile
